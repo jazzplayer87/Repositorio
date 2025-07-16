@@ -48,3 +48,18 @@ section{
 section h2 {
     color: #333;
 }
+/*Estilos para Formulario*/
+label{
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px
+}
+input, select {
+    width: 500px;
+    padding: 10px 0 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc
+}
+input[type="submit"]:hover{
+    background-color:  rgb(84, 119, 233)
+}
