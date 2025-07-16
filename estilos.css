@@ -35,3 +35,16 @@ nav ul li a{
 nav ul li a:hover {
     background-color: rgb(54, 52, 52)
 }
+/*Estilo para la Seccion Principal*/
+section{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px silver;
+}
+
+section h2 {
+    color: #333;
+}
