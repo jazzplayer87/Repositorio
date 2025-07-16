@@ -1,3 +1,37 @@
-h1{color:aqua;
+h1{color:white;
 
+}
+/* Estilos para el Encabezado */
+header {background-color: rgb(84, 119, 233);
+padding: 20px;
+text-align: center;
+color: white
+}
+
+/* Estilos para la Barra de navegacion */
+nav{
+    background-color: rgb(84, 119, 233);
+    padding: 10px 0;
+}
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: background-color 0,3s;
+}
+nav ul li a:hover {
+    background-color: rgb(54, 52, 52)
 }
