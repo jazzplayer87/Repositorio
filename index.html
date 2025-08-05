@@ -1,150 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Jhonathan</title>
-    <link rel="stylesheet" href="estilos.css">
-<!-- <style>
-table, th, td {
-  border:1px solid black;
-}
-</style>-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Jhonathan</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<header>
-    <h1>Bienvenidos a mi Pagina Web</h1> <hr>
-</header>
-<nav>
-  <ul>
-    <li><a href="#Home">Inicio</a></li>
-    <li><a href="#Acerca">Acerca de</a></li>
-    <li><a href="#Hobbies">Mis Hobbies</a></li>
-    <li><a href="#Metas">Mis Metas</a></li>
-    <li><a href="#Actividades">Actividades Pendientes</a></li>
-    <li><a href="#Contact">Acerca De</a></li>
-  </ul>
-</nav>
-  
-</nav>
-    <section>
-      <h2>Acerca de mi</h2>
+
+  <!-- Encabezado con navegación -->
+  <header>
+    <h1>Bienvenidos a mi Página Web</h1>
+    <hr>
+    <nav>
+      <ul>
+        <li><a href="#Home">Inicio</a></li>
+        <li><a href="#datosp">Datos Personales</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#Hobbies">Mis Hobbies</a>
+          <ul>
+            <li><a href="#">Música</a></li>
+            <li><a href="#">Jugar Fútbol</a></li>
+            <li><a href="#">Leer</a></li>
+            <li><a href="#">Ver Deportes</a></li>
+          </ul>
+        </li>
+        <li><a href="#Metas">Mis Metas</a></li>
+        <li><a href="#Actividades">Actividades Pendientes</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de presentación -->
+  <main>
+    <section id="datosp">
+      <h2>Acerca de mí</h2>
+      <div style="text-align: center;">
+        <img src="img/Jhonathan.jpg" alt="Foto de Jhonathan Herrera" width="350" height="370">
+      </div>
+      <h3>Dios</h3>
+      <h4>Familia</h4>
+      <blockquote>
+        <p>
+          Hola, soy Jhonathan Herrera. Me gusta la música y el fútbol. Actualmente trabajo y me interesa mucho la programación. Me gusta esta profesión y espero algún día llegar a ser muy bueno programando.
+        </p>
+      </blockquote>
     </section>
-    <img src="img/Jhonathan.jpeg" alt="imagen principal" width="350" height="510"><br>
-    <h3></h3> Dios
-    <h4></h4> Familia
-  <section>
-    <p> <blockquote> hola soy Jhonathan Herrera, me gusta La Musica y el futbol, actualmente Trabajo, me intereza mucho la programación, me gusta la profesión en si y espero algun dia llegar a ser muy bueno programando. </p> </blockquote>
-  </section>
-  <section>
-  <h3>Mis Hobies</h3>
-  </section>
-  <ul></ul>
-         <li>Futbol</li>
-         <li>Musica</li> 
-  <section>
-   <h3>Mis Metas</h3>
-   </section> 
-   <ol>
-        <li>Dominar La Programacion</li>
+
+    <!-- Hobbies -->
+    <section id="Hobbies">
+      <h3>Mis Hobbies</h3>
+      <ul>
+        <li>Música</li>       
+        <li>Fútbol</li>
+      </ul>
+    </section>
+
+    <!-- Metas -->
+    <section id="Metas">
+      <h3>Mis Metas</h3>
+      <ol>
+        <li>Dominar la programación</li>
         <li>Aprender estilos</li> 
-        <li>Aprender ingles</li>
-        <li>Aprender a Leer Partituras</li>
-        <li>Emprender un Negocio Exitoso</li>   
-   </ol>
-   
-<img src="img/Piano.jpg" alt="imagen principal" width="400" height="300"><br> 
-<a href="https://www.facebook.com/" target="_blank">contacto</a><br>
-
-<hr>
-<section>
-  <h2>Actividades Pendientes</h2>
-</section>
-<table border="1px" style= "width: 100%; height: 5px">
-    <tr>
-    <th>Lunes</th>
-    <th>Martes</th>
-    <th>Miercoles</th>
-    <th>Jueves</th>
-    <th>Viernes</th>
-    <th>Sabado</th>
-    <th>Domingo</th>
-    </tr>
-
-    <tr>
-    <td>Jugar Futbol</td>
-    <td>Estudiar Programacion</td>
-    <td>Ensayo Musica</td>
-    <td>Ir al Bootcamp</td>
-    <td>Salir con la Moza</td>
-    <td>Dia de la Familia</td>    
-    <td>Ir a la Iglesia</td>
-    </tr>
-</table>
-<!--<table>
-      <tr>
-    <th>Dias de La Semana</th>
-  </tr>
-  <tr>
-    <td>Lunes</td>
-      </tr>
-  <tr>
-    <td>Martes</td>
-  </tr>
-   <tr>
-    <td>Miercoles</td>
-  </tr>
-   <tr>
-    <td>Jueves</td>
-  </tr>
-   <tr>
-    <td>Viernes</td>
-  </tr>
-   <tr>
-    <td>Sabado</td>
-  </tr>
-   <tr>
-    <td>Domingo</td>
-  </tr>
-</table>-->
-<hr>
-<section>
-  <h2>Formulario de Contacto</h2>
-</section>
-<section>
-    <form action="">
-        <label name="Name">Digite Su Nombre</label>
-        <input type="text" placeholder="Nombre Completo" name="Nombre" id="">
-        <br>
-        <br>
-        <label name="Documento">Digite Su Documento</label>
-        <input type="number" placeholder="Documento de Identidad" name="documento" id="">
-        <br>
-        <br>
-        <label name="Email">Digite Su Correo Electronico</label>
-        <input type="email" placeholder="Correo Electronico" name="correo" id="">
-        <br>
-        <br>
-        <label name="Password">Digite Su Contraseña</label>
-        <input type="password" placeholder="Contraseña" name="Contraseña" id="" required>
-        <br>
-        <br>
-        <select>
-            <option disabled="" selected="" id="">Seleccion Ciudad</option>
-            value=""></option>
-            <option value="">Valledupar</option>
-            <option value="">Bogota</option>
-            <option value="">Barranquilla</option>
-            <option value="">Medellin</option>
-        </select>
-        <br>
-        <br>
-        <input type="submit" value="Enviar">
-     </form>
-     <hr>
-     </section>
-     <section>
-      <h2>Aprendiendo Github</h2>
+        <li>Aprender inglés</li>
+        <li>Aprender a leer partituras</li>
+        <li>Emprender un negocio exitoso</li>   
+      </ol>
     </section>
+
+    <!-- Imagen adicional -->
+    <div style="text-align: center;">
+      <img src="img/Piano.jpg" alt="Piano" width="400" height="300">
+    </div>
+
+    <!-- Contacto externo -->
+    <p style="text-align: center;">
+      <a href="https://www.facebook.com/" target="_blank">Visita mi Facebook</a>
+    </p>
+
+    <hr>
+
+    <!-- Actividades Pendientes -->
+    <section id="Actividades">
+      <h2>Cronograma de Actividades</h2>
+      <table border="1" style="width: 100%; text-align: center;">
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>Sábado</th>
+          <th>Domingo</th>
+        </tr>
+        <tr>
+          <td>Jugar Fútbol</td>
+          <td>Estudiar Programación</td>
+          <td>Ensayo de Música</td>
+          <td>Ir al Bootcamp</td>
+          <td>Día de Deporte con mi hijo</td>
+          <td>Día de la Familia</td>    
+          <td>Ir a la Iglesia</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- Formulario de contacto -->
+    <section id="Contacto">
+      <h2>Formulario de Contacto</h2>
+      <form action="#">
+        <label for="nombre">Digite su nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+
+        <label for="documento">Digite su documento:</label>
+        <input type="number" id="documento" name="documento" placeholder="Documento de identidad">
+
+        <label for="correo">Digite su correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+
+        <label for="contrasena">Digite su contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+
+        <label for="ciudad">Seleccione su ciudad:</label>
+        <select id="ciudad" name="ciudad" required>
+          <option disabled selected value="">Selecciona una ciudad</option>
+          <option value="valledupar">Valledupar</option>
+          <option value="bogota">Bogotá</option>
+          <option value="barranquilla">Barranquilla</option>
+          <option value="medellin">Medellín</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <hr>
+
+    <!-- Sección de aprendizaje -->
+    <section>
+      <h2>Aprendiendo GitHub</h2>
+      <p>Aquí compartiré mis avances aprendiendo a usar GitHub para proyectos de desarrollo web.</p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p style="text-align: center;">&copy; 2025 Jhonathan Herrera. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
